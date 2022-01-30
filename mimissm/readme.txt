@@ -1,0 +1,12 @@
+搭建步骤
+1、新建maven-webapp
+2、修改pom.xml文件
+3、添加ssm所有依赖
+4、拷贝jdbc.properties
+5、新建dao和service层的xml配置文件
+6、新建springmvc配置文件
+7、新建mybatis的配置文件，进行分页插件的配置
+8、逆向工程生成pojo和mapper文件
+9、开发业务逻辑层，实现登录判断
+10、开发控制器AdminAction，完成登录处理
+11、改造页面，发送登录请求，验证登录
