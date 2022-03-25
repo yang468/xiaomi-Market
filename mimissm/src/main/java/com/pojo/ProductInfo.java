@@ -1,8 +1,12 @@
 package com.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class ProductInfo {
+public class ProductInfo implements Serializable {
+
+    private static final long serialVersionUID = 3107254668596721195L;
+
     private Integer pId;
 
     private String pName;

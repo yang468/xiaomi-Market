@@ -1,6 +1,11 @@
 package com.pojo;
 
-public class Admin {
+import java.io.Serializable;
+
+public class Admin implements Serializable {
+
+    private static final long serialVersionUID = 1757261342066695021L;
+
     private Integer aId;
 
     private String aName;

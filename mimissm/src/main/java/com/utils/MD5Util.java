@@ -28,7 +28,7 @@ public class MD5Util {
                 else
                     temp=mdBytes[i];
                 if(temp<16)
-                    hash+= "0";
+                    hash+= "0";                               //temp小于0，前4位为全0
                 hash+=Integer.toString(temp,16);         //将字节转换为16进制后，转换为字符串
             }
             return hash;
